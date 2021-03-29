@@ -1,0 +1,17 @@
+{
+  "name": "chrisbot",
+  "version": "1.0.0",
+  "description": "simple discord for test",
+  "main": "src/Index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Discord",
+    "Javascript",
+    "Node",
+    "DiscordJs"
+  ],
+  "author": "Christopher Alexander <ChrisJobs046@gmail.com>",
+  "license": "MIT"
+}
