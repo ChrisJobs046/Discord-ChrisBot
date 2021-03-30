@@ -12,6 +12,15 @@ client.on('ready', () =>{
 
 client.on('message', msg => {
     console.log(msg);
+
+    if(msg.channel.type === 'dm'){
+
+        console.log('Enviaste un DM')
+        msg.reply('Hola  mundo');
+        msg.reply('https://tenor.com/view/blue-bird-gif-20917099')
+        msg.react('😃😃')
+    }
+
     if (msg.content.toLocaleLowerCase() === 'hola') {          //Aqui se hace una validacion que si el contenido del mensaje es hola, pues que lo replique o devuelva otro mensaje--
         msg.reply('Bienvenido al servidor');                 //-- usamos toLocalelowercase para parcial el mensaje y que aunque se escriba en mayusculas lo reciba como minusculas y lo compare
         msg.channel.send(messageEmbed());
