@@ -1,0 +1,12 @@
+#Cuando se declara una variable en mayuscula y con rayita abajo _, significa
+que nuca se va a cambiar, lo que nos indica que es una variable de entorno.
+
+#Cuando se trabaja con servidores node o aplicaciones tipo bot
+no se tiene una imagen en pantalla, por lo tanto es bueno usar console.log,
+para saber que pasa en consola.
+
+#No es buena practica dejar, los Token, llaves privadas o contraseñas directamente 
+en el codigo, para eso es el .env
+
+#nodemon sirve para ver si la conexion es exitoso con nuestro bot
+buscar despues mas sobre nodemon

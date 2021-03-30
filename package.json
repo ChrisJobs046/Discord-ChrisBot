@@ -4,7 +4,9 @@
   "description": "simple discord for test",
   "main": "src/Index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/Index.js",
+    "developer": "nodemon src/Index.js"
   },
   "keywords": [
     "Discord",
@@ -13,5 +15,10 @@
     "DiscordJs"
   ],
   "author": "Christopher Alexander <ChrisJobs046@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^12.5.1",
+    "dotenv": "^8.2.0",
+    "nodemon": "^2.0.7"
+  }
 }
